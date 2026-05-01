@@ -1,0 +1,8 @@
+POST http://localhost:8000/visualise/
+Content-Type: application/json
+
+{
+	"question": "What is the formula for radius and circumference of a circle"
+}
+
+ 
