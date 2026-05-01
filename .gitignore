@@ -1,0 +1,74 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.vim/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Manim Generated Files
+media/videos/
+media/images/
+media/Tex/
+media/texts/
+media/partial_movie_files/
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.log
+
+# Temporary Files
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+.tmp/
