@@ -111,6 +111,23 @@ curl -X POST "http://localhost:8000/visualise/" \
   --output animation.mp4
 ```
 
+### Video Sample
+
+Try this POST request to generate the sample video shown below:
+
+```bash
+curl -X POST "http://localhost:8000/visualise/" \
+   -H "Content-Type: application/json" \
+   -d '{"question": "What is the formula for radius and circumference of a circle"}' \
+   --output circle_formula.mp4
+```
+
+Video (Google Drive): https://drive.google.com/file/d/1eLN3c2SOGwXCiMngs5R-hINcVR7k2fMJ/view?usp=sharing
+
+Direct preview (embed): https://drive.google.com/file/d/1eLN3c2SOGwXCiMngs5R-hINcVR7k2fMJ/preview
+
+If embedding is supported in your viewer, use the preview URL to embed the video in an iframe.
+
 ## 🏗️ Project Structure
 
 ```
